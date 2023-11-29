@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Service Feedback</title>
+    <link rel="stylesheet" href="/Users/user/Desktop/AlmazMed/запись/style1.css"> 
+</head>
+<body>
+    <div class="feedback-container">
+        <h1>Оценка Медицинских Услуг</h1>
+        <form action="submit_feedback.php" method="post"> 
+            <label for="rating">Ваша оценка:</label>
+            <select id="rating" name="rating">
+                <option value="5">Отлично - 5</option>
+                <option value="4">Хорошо - 4</option>
+                <option value="3">Удовлетворительно - 3</option>
+                <option value="2">Плохо - 2</option>
+                <option value="1">Ужасно - 1</option>
+            </select>
+
+            <label for="feedback">Ваш отзыв:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Напишите ваш отзыв здесь..."></textarea>
+            <form class="appointment-form">
+                <a href="/Users/user/Desktop/AlmazMed/отзыв/aaaa.html" class="button-link"></a>
+                    <button type="submit">Отправить отзыв</button>
+                </a>
+            </form>
+        </form>
+    </div>
+</body>
+</html>
